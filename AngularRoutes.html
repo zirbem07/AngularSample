@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="routeApp">
+	<head>
+		<title>Angular Tutorial</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://code.angularjs.org/1.2.0-rc.2/angular.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    	<script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-animate.js"></script>
+    	<script src="routeCtrl.js" ></script>
+    	<link href="animations.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<a ui-sref="state1">State 1</a>
+		<a ui-sref="state2">State 2</a>
+		<div class="view-animate-container">
+    		<div ui-view class="view-animate">
+    			
+			</div>
+  		</div>
+	</body>
+</html>
